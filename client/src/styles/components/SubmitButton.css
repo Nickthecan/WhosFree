@@ -3,5 +3,20 @@
     min-height: 44px;
     width: 100%;
     border-radius: 10px;
+    border: none;
+    background-color: var(--white);
+    color: var(--black);
+    transition: all 0.2s ease-in-out;
+}
 
+.c-submit-button:active {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+@media screen and (min-width: 992px) {
+    .c-submit-button:hover {
+        background-color: var(--blue);
+        color: var(--white);
+    }
 }
