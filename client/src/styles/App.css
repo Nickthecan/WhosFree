@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 :root {
-    --white: #dee2e6;
-    --black: #10121b;
-    --blue: #4267e2;
+    --white: #F8F8FF;
+    --black: #30323D;
+    --blue: #5C80BC;
     --gray: #4f545c;
 }
 
