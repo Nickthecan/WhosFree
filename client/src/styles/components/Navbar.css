@@ -1,0 +1,10 @@
+.c-nav-bar-burger {
+  width: 40px;
+  aspect-ratio: 1/1;
+  top: 10px;
+  left: 10px;
+}
+
+.c-navbar-body-mobile {
+    position: relative;
+}
