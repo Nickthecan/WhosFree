@@ -16,7 +16,7 @@ const SignUp = () => {
                 </div>
                 <div className="signup-username-field lato-regular">
                     <p>Name</p>
-                    <input className='lato-regular' type="email" name="" id="" placeholder='email'/>
+                    <input className='lato-regular' type="name" name="" id="" placeholder='name'/>
                 </div>
                 <div className="signup-password-field lato-regular">
                     <p>Password</p>
