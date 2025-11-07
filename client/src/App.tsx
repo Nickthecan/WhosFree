@@ -4,6 +4,7 @@ import SignUp from "./pages/SignUp"
 import Landing from "./pages/Landing"
 import Home from "./pages/Home"
 import Plan from "./pages/Plan"
+import Events from "./pages/Events"
 import './styles/App.css'
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 					<Route path="/signup" element={<SignUp />}/>
 					<Route path="/home" element={<Home />}/>
 					<Route path="/plan" element={<Plan />}/>
+					<Route path="/events" element={<Events />}/>
 				</Routes>
 			</BrowserRouter>
 		</>

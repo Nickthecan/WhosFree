@@ -1,0 +1,17 @@
+.e-outertile {
+    width: 90%;
+    height: 128px;
+    background-color: var(--black);
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+}
+
+.e-outertile h2 {
+    color: var(--white);
+}
+
+.e-outertile button {
+    position: relative;
+    
+}
