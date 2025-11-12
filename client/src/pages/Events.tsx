@@ -7,9 +7,9 @@ const Events = () => {
     return (
         <>
             <Navbar />
-            <h1>Events</h1>
+            <h1 className="e-title">Events</h1>
             <div className="e-event-list">
-                <EventTile eventName="Nick's Party" />
+                <EventTile eventName="Nick's Party" eventLink="placeholderhi"/>
             </div>
         </>
     )

@@ -1,0 +1,40 @@
+.plan-title {
+    margin: 16px 0;
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.plan-name, .plan-calendar-title {
+    font-size: 1.7rem;
+    color: var(--black);
+    margin-bottom: 8px;
+}
+
+.plan-input-name {
+    margin-bottom: 8px;
+    width: 90%;
+	background: none;
+	border: none;
+	color: var(--black);
+	font-size: 1.5rem;
+	border-bottom: 2px solid var(--black);
+	transition: border-bottom 0.2s ease-in-out;
+}
+
+.plan-input-name:focus {
+    border-bottom: 2px solid var(--blue);
+	outline: none;
+}
+
+.plan-calendar-subtitle {
+    font-size: 1.3rem;
+    color: var(--black);
+}
+
+.plan-time-selection {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+
