@@ -1,0 +1,12 @@
+.e-event-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.e-title {
+    margin: 16px 0;
+    font-size: 3rem;
+    color: var(--black);
+}

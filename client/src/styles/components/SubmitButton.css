@@ -1,12 +1,19 @@
+.c-submit-button-container {
+    display: flex;
+    justify-content: center;
+}
+
 .c-submit-button {
     min-width: 44px;
     min-height: 44px;
-    width: 100%;
+    width: 95%;
     border-radius: 10px;
     border: none;
-    background-color: var(--white);
-    color: var(--black);
+    background-color: var(--blue);
+    color: var(--white);
     transition: all 0.2s ease-in-out;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .c-submit-button:active {
