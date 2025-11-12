@@ -4,6 +4,13 @@
   padding: 8px;
 }
 
+.c-website-name-navbar-open {
+  color: var(--blue);
+  text-shadow: var(--white) -3px -3px;
+  font-weight: 800;
+  font-size: 2.2rem;
+}
+
 .c-website-name {
   color: var(--blue);
   text-shadow: var(--black) -3px -3px;
@@ -11,7 +18,7 @@
   font-size: 2.2rem;
 }
 
-.c-nav-bar-burger {
+.c-nav-bar-burger, .c-nav-bar-close {
   width: 40px;
   aspect-ratio: 1/1;
   top: 10px;
@@ -19,5 +26,28 @@
 }
 
 .c-navbar-body-mobile {
-    position: relative;
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
+    width: 90%;
+    background-color: var(--black);
+
+}
+
+.c-navbar-body-mobile-links {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 8px;
+}
+
+.c-navbar-body-mobile-links a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.c-navbar-body-mobile-links-pair {
+  display: flex;
+  gap: 16px;
 }
