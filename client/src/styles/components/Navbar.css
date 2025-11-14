@@ -13,10 +13,10 @@
   justify-content: space-between
 }
 
-.c-navbar-row-hidden {
+/* .c-navbar-row-hidden {
   visibility: hidden;
   display: none;
-}
+} */
 
 .c-website-name-navbar-open {
   color: var(--blue);
