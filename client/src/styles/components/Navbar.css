@@ -1,7 +1,21 @@
 .c-navbar-row {
+  position: fixed;
+  position: sticky;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.c-navbar-row-items {
+  width: 95%;
+  display: flex;
+  justify-content: space-between
+}
+
+.c-navbar-row-hidden {
+  visibility: hidden;
+  display: none;
 }
 
 .c-website-name-navbar-open {
@@ -31,15 +45,14 @@
     height: 100%;
     width: 90%;
     background-color: var(--black);
-
 }
 
 .c-navbar-body-mobile-links {
   display: flex;
   width: 100%;
   flex-direction: column;
-  gap: 16px;
-  margin-left: 8px;
+  gap: 32px;
+  margin: 32px 0 0 8px;
 }
 
 .c-navbar-body-mobile-links a {

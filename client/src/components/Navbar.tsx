@@ -18,21 +18,22 @@ const Navbar = () => {
 
     return (
         <>
-            {navbarMobilePreview && (<div className="c-navbar-row">
-                <img className="c-nav-bar-burger" src={Hambuger} alt="" onClick={activateNavBar}/>
-                <h1 className="c-website-name">Who's Free</h1>
-            </div>)}
+            <div className={navbarMobilePreview ? `c-navbar-row` : `c-navbar-row`}>
+                <div className="c-navbar-row-items">
+                    <img className="c-nav-bar-burger" src={Hambuger} alt="" onClick={activateNavBar}/>
+                    <h1 className="c-website-name">Who's Free</h1>
+                </div>
+            </div>
             
             {navbarMobile && (
                 <div className="c-navbar-body-mobile">
                     <div className="c-navbar-row">
-                        <img className="c-nav-bar-close" src={close} alt="" onClick={activateNavBar}/>
-                        <h1 className="c-website-name-navbar-open">Who's Free</h1>
+                        <div className="c-navbar-row-items">
+                            <img className="c-nav-bar-close" src={close} alt="" onClick={activateNavBar}/>
+                            <h1 className="c-website-name-navbar-open">Who's Free</h1>
+                        </div>
                     </div>
                     <div className="c-navbar-body-mobile-links">
-                        <div className="c-navbar-body-mobile-links-pair">
-                            <Link to={"/home"}><h1>Home</h1></Link>
-                        </div>
                         <div className="c-navbar-body-mobile-links-pair">
                             <img src={planImage} alt="" height="32px"/>
                             <Link to={"/plan"}><h1>Plan</h1></Link>
