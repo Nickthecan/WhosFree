@@ -4,6 +4,8 @@ import DatePicker from 'react-datepicker'
 import Navbar from "../components/Navbar"
 import CalendarTile from "../components/CalendarTile"
 import SubmitButton from "../components/SubmitButton"
+import 'react-calendar/dist/Calendar.css';
+import '../styles/components/Calendar.css'
 
 const Plan = () => {
     return (
@@ -13,7 +15,7 @@ const Plan = () => {
             <h2 className="plan-name">Name</h2><input className="plan-input-name" type="text" placeholder="Hangout"/>
             <h2 className="plan-calendar-title">Days Available to Meet</h2>
             {/* <DatePicker /> */}
-            <Calendar  />
+            <Calendar className={"react-calendar"}/>
             <h2 className="plan-calendar-title">Times</h2>
             <div className="plan-time-selection">
                 <p className="plan-calendar-subtitle">No earlier than</p>
