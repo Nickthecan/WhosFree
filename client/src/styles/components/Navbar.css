@@ -1,7 +1,28 @@
 .c-navbar-row {
+  position: fixed;
+  position: sticky;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding: 8px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.c-navbar-row-items {
+  width: 95%;
+  display: flex;
+  justify-content: space-between
+}
+
+.c-navbar-row-hidden {
+  visibility: hidden;
+  display: none;
+}
+
+.c-website-name-navbar-open {
+  color: var(--blue);
+  text-shadow: var(--white) -3px -3px;
+  font-weight: 800;
+  font-size: 2.2rem;
 }
 
 .c-website-name {
@@ -11,7 +32,7 @@
   font-size: 2.2rem;
 }
 
-.c-nav-bar-burger {
+.c-nav-bar-burger, .c-nav-bar-close {
   width: 40px;
   aspect-ratio: 1/1;
   top: 10px;
@@ -19,5 +40,27 @@
 }
 
 .c-navbar-body-mobile {
-    position: relative;
+    position: absolute;
+    z-index: 1000;
+    height: 100%;
+    width: 90%;
+    background-color: var(--black);
+}
+
+.c-navbar-body-mobile-links {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 32px;
+  margin: 32px 0 0 8px;
+}
+
+.c-navbar-body-mobile-links a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.c-navbar-body-mobile-links-pair {
+  display: flex;
+  gap: 16px;
 }
