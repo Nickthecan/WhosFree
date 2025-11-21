@@ -18,7 +18,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className={navbarMobilePreview ? `c-navbar-row` : `c-navbar-row`}>
+            <div className={navbarMobilePreview ? `c-navbar-row` : `c-navbar-row-hidden`}>
                 <div className="c-navbar-row-items">
                     <img className="c-nav-bar-burger" src={Hambuger} alt="" onClick={activateNavBar}/>
                     <h1 className="c-website-name">Who's Free</h1>
