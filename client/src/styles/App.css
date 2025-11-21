@@ -16,3 +16,8 @@ html, body {
   background-color: var(--white);
 }
 
+.title {
+    margin: 16px 0 16px 8px;
+    font-size: 3rem;
+    color: var(--black);
+}

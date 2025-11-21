@@ -2,7 +2,7 @@ import "../styles/components/EventTile.css"
 
 const EventTile = ({ eventName, eventLink } : { eventName : string; eventLink : string}) => {
     return (
-        <a href={`/events/${eventLink}`} className="e-outertile">
+        <a href={`/events/${eventLink}`} className="c-outertile">
             <h2>{eventName}</h2>
             <button>Copy Link</button>
         </a>

@@ -1,9 +1,3 @@
-.plan-title {
-    margin: 16px 0 16px 8px;
-    font-size: 3rem;
-    color: var(--black);
-}
-
 .plan-name, .plan-calendar-title {
     font-size: 1.7rem;
     color: var(--black);

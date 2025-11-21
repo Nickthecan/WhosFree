@@ -5,6 +5,7 @@ import Landing from "./pages/Landing"
 import Home from "./pages/Home"
 import Plan from "./pages/Plan"
 import Events from "./pages/Events"
+import Account from "./pages/Account"
 import './styles/App.css'
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
 					<Route path="/home" element={<Home />}/>
 					<Route path="/plan" element={<Plan />}/>
 					<Route path="/events" element={<Events />}/>
+					<Route path="/account" element={<Account />}/>
+
 				</Routes>
 			</BrowserRouter>
 		</>
