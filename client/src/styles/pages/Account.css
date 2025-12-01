@@ -1,0 +1,42 @@
+.a-list {
+    width: 100%;
+    height: ;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.a-list h2 {
+    color: var(--black);
+    width: 90%;
+}
+
+.a-edit-account {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.a-edit-account-button {
+    width: 100%;
+}
+
+.a-template {
+    color: #56596C !important;
+}
+
+.a-list button {
+    background-color: var(--white);
+    border: none;
+    width: fit-content;
+    color: var(--blue);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.a-small-text-button {
+    font-size: 1rem !important;
+    white-space: nowrap;
+}
