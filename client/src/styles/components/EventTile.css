@@ -1,4 +1,4 @@
-.e-outertile {
+.c-outertile {
     width: 90%;
     height: 128px;
     background-color: var(--black);
@@ -8,12 +8,12 @@
     text-decoration: none;
 }
 
-.e-outertile h2 {
+.c-outertile h2 {
     color: var(--white);
 
 }
 
-.e-outertile button {
+.c-outertile button {
     position: absolute;
     right: 16px;
     width: 40%;
