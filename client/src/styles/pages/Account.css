@@ -1,11 +1,17 @@
 .a-list {
     width: 100%;
-    height: ;
     margin-top: 16px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 16px;
     align-items: center;
+}
+
+.a-profile-info {
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .a-list h2 {
@@ -15,7 +21,13 @@
 
 .a-edit-account {
     display: flex;
+    flex-direction: column;
     width: 90%;
+}
+
+.a-edits {
+    display: flex;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -39,4 +51,10 @@
 .a-small-text-button {
     font-size: 1rem !important;
     white-space: nowrap;
+}
+
+.a-profile-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
