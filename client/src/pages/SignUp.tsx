@@ -7,24 +7,24 @@ import SubmitButton from '../components/SubmitButton'
 const SignUp = () => {
     return (
         <div className='signup-body'>
-            <h1 className='signup-name lato-bold'>Who's Free?</h1>
-            <h1 className='signup-title lato-bold'>Let's start planning!</h1>
+            <h1 className='signup-name'>Who's Free?</h1>
+            <h1 className='signup-title'>Let's start planning!</h1>
             <div className="signup-credentials">
-                <div className="signup-username-field lato-regular">
+                <div className="signup-username-field">
                     <p>Email</p>
-                    <input className='lato-regular' type="email" name="" id="" placeholder='email'/>
+                    <input type="email" name="" id="" placeholder='email'/>
                 </div>
-                <div className="signup-username-field lato-regular">
+                <div className="signup-username-field">
                     <p>Name</p>
-                    <input className='lato-regular' type="name" name="" id="" placeholder='name'/>
+                    <input type="name" name="" id="" placeholder='name'/>
                 </div>
-                <div className="signup-password-field lato-regular">
+                <div className="signup-password-field">
                     <p>Password</p>
-                    <input className='lato-regular' type="password" name="" id="" placeholder='password'/>
+                    <input type="password" name="" id="" placeholder='password'/>
                 </div>
-                <div className="signup-password-field lato-regular">
+                <div className="signup-password-field">
                     <p>Confirm Password</p>
-                    <input className='lato-regular' type="password" name="" id="" placeholder='password'/>
+                    <input type="password" name="" id="" placeholder='password'/>
                 </div>
                 <div className="signup-button">
                     <SubmitButton text={"Sign Up"}/>

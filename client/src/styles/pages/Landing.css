@@ -5,7 +5,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 64px;
 }
+
 .landing-title {
     font-size: 4rem;
     color: var(--blue);
@@ -20,8 +22,8 @@
 }
 
 .landing-button {
-    width: 11em;
-    height: 3em;
+    width: 12em;
+    height: 4em;
     border-radius: 10px;
     border: none;
     background-color: var(--blue);
@@ -30,9 +32,10 @@
 .landing-button p {
     color: var(--white);
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .landing-calendar-picture {
-    width: 100%;
+    width: 80%;
 }
