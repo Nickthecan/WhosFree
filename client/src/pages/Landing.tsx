@@ -10,10 +10,10 @@ const Landing = () => {
         <>
             <div className="landing-body">
                 <div>
-                    <h1 className="landing-title lato-bold">Who's Free</h1>
-                    <p className="landing-subtitle lato-bold">Smooth Planning for Everyone!</p>
+                    <h1 className="landing-title">Who's Free</h1>
+                    <p className="landing-subtitle">Smooth Planning for Everyone!</p>
                 </div>
-                <button onClick={() => {navigate('/login')}} className="landing-button"><p className="lato-bold">Start Planning</p></button>
+                <button onClick={() => {navigate('/login')}} className="landing-button"><p>Start Planning</p></button>
                 <img className="landing-calendar-picture" src={calendarPicture} alt="" />
             </div>
         </>

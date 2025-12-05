@@ -12,6 +12,8 @@ import { useState } from "react"
 const Plan = () => {
     const [range, setRange] = useState<[Date | null, Date | null] | null>(null)
 
+    
+
 
     return (
         <>
@@ -30,7 +32,7 @@ const Plan = () => {
                 <p className="plan-calendar-subtitle">No later than</p>
                <SelectTime />
             </div>
-            <div >
+            <div className="plan-button">
                 <SubmitButton text="Plan"/>
             </div>
         </>

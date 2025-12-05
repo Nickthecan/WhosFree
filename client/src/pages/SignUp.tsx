@@ -27,9 +27,9 @@ const SignUp = () => {
                     <input type="password" name="" id="" placeholder='password'/>
                 </div>
                 <div className="signup-button">
-                    <SubmitButton text={"Sign Up"}/>
+                    <SubmitButton text={"Sign Up"} width={"95%"}/>
                 </div>
-                <div className="signup-login lato-light">
+                <div className="signup-login">
                     <p>Have an account? <Link to="/login">Login!</Link></p>
                 </div>
             </div>

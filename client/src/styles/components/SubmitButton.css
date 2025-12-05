@@ -6,7 +6,7 @@
 .c-submit-button {
     min-width: 44px;
     min-height: 44px;
-    width: 95%;
+    width: 100%;
     border-radius: 10px;
     border: none;
     background-color: var(--blue);
