@@ -1,12 +1,12 @@
 .c-submit-button-container {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .c-submit-button {
     min-width: 44px;
     min-height: 44px;
-    width: 100%;
     border-radius: 10px;
     border: none;
     background-color: var(--blue);

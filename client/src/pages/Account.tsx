@@ -38,10 +38,10 @@ const Account = () => {
                 </div>
                 <div className="a-profile-footer">
                     <div className='a-edit-account-button'>
-                        <SubmitButton text='Log out'/>
+                        <SubmitButton text='Log out' width='95%'/>
                     </div>
                     <div className='a-edit-account-button'>
-                        <SubmitButton text='Delete Account'/>
+                        <SubmitButton text='Delete Account' width='95%'/>
                     </div>
                 </div>
             </div>
