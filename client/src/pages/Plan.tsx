@@ -33,7 +33,7 @@ const Plan = () => {
                <SelectTime />
             </div>
             <div className="plan-button">
-                <SubmitButton text="Plan"/>
+                <SubmitButton text="Plan" width={"95%"}/>
             </div>
         </>
     )

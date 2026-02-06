@@ -19,7 +19,7 @@ const Login = () => {
                     <input type="password" name="" id="" placeholder='password'/>
                 </div>
                 <div className="login-button">
-                    <SubmitButton text={"Login"}/>
+                    <SubmitButton text={"Login"} width={"100%"}/>
                 </div>
                 <div className="login-signup">
                     <p>Don't have an account? <Link to={"/signup"}>Register!</Link></p>
